@@ -19,6 +19,5 @@ total = a + b + c
 print(total, s)
 ```
 
-print(sum, s)
 
 
