@@ -12,10 +12,14 @@ Explain your idea step by step. Why does it work?
 
 ## My solution
 
+```python
 a = int(input())
-b , c= map(int, input().split())
-s = str(input())
-sum = a + b + c
+b, c = map(int, input().split())
+s = input()
+
+total = a + b + c
+print(total, s)
+```
 
 print(sum, s)
 
