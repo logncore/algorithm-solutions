@@ -1,26 +1,22 @@
-# ABCXXX A - Problem Title
+# A - Welcome to AtCoder
 
-**Problem:** https://atcoder.jp/contests/abcXXX/tasks/abcXXX_a  
+**Problem:** https://atcoder.jp/contests/practice/tasks/practice_1#Python_en
 **Language:** Python  
-**Status:** Not started
+**Status:** Solved
 
 ## My understanding
-Write the problem in your own words. Do not copy the full problem statement.
+there will be 4 inputs. 3 integers which are a b c and 1 str which is s. a b c are the numbers between 1 and 1000. s is word that has number of letters between 1 and 100.
 
 ## My approach
 Explain your idea step by step. Why does it work?
 
 ## My solution
-```python
-# Paste your own Python solution here after solving the problem.
-```
 
-## Complexity
-- Time: O(?)
-- Space: O(?)
+a = int(input())
+b , c= map(int, input().split())
+s = str(input())
+sum = a + b + c
 
-## What I learned
-What was new or difficult? What would you try differently next time?
+print(sum, s)
 
-## Feedback welcome
-Can this solution be simpler, clearer, or faster? Suggestions are welcome.
+
